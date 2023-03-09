@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "calendar": {
+    "angular_practice": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/calendar",
+            "outputPath": "dist/angular_practice",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "calendar:build:production"
+              "browserTarget": "angular_practice:build:production"
             },
             "development": {
-              "browserTarget": "calendar:build:development"
+              "browserTarget": "angular_practice:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "calendar:build"
+            "browserTarget": "angular_practice:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "0ac4351f-1bee-469d-820e-b10799b3a9cd"
+    "analytics": "57aecd36-3415-442e-b855-65ae9ee94e07"
   }
 }
